@@ -1,0 +1,16 @@
+{
+    "name": "Chris's Extension with jQuery",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Using jQuery for API loading",
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "http://devlendlease.sprookimanager.com/"
+    ],
+    "browser_action": {
+        "default_icon": "firebug.png",
+        "default_popup": "popup.html"
+    }
+}
