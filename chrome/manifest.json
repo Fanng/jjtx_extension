@@ -1,16 +1,15 @@
 {
-    "name": "Chris's Extension with jQuery",
-    "version": "1.0",
-    "manifest_version": 2,
-    "description": "Using jQuery for API loading",
-    "browser_action": {
-        "default_icon": "icon.png"
-    },
-    "permissions": [
-        "http://devlendlease.sprookimanager.com/"
-    ],
-    "browser_action": {
-        "default_icon": "firebug.png",
-        "default_popup": "popup.html"
-    }
+  "manifest_version": 2,
+
+  "name": "降价小助手",
+  "description": "为您在线购物时提供实时的降价提醒及通知",
+  "version": "1.0.1",
+
+  "permissions": [
+    "http://dev.xpttk.com/"
+  ],
+  "browser_action": {
+    "default_icon": "extension-bar-logo.jpg",
+    "default_popup": "popup.html"
+  }
 }
