@@ -1,31 +1,33 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Getting Started Extension's Popup</title>
-    <style>
-      body {
-        min-width:357px;
-        overflow-x:hidden;
-      }
+    <head>
+        <title>降价小助手</title>
+        <style>
+            body {
+                overflow: hidden;
+                background: #fafcff;
+                width: 400px;
+                height: 500px;
+                font-family: "微软雅黑", "Microsoft YaHei", "宋体", Verdana, Geneva, sans-serif;
+            }
+        </style>
 
-      img {
-        margin:5px;
-        border:2px solid black;
-        vertical-align:middle;
-        width:75px;
-        height:75px;
-      }
-    </style>
-
-    <!-- JavaScript and HTML must be in separate files for security. -->
-    <script src='jquery.js'></script>
-    <script src="popup.js"></script>
-  </head>
-  <body>
-      <form id="test">
-          <input type="button" id="b1" value="PULL">
-          <input type="button" id="b2" value="PUSH">
-      </form>
-      <span id="result"></span>
-  </body>
+        <!-- JavaScript and HTML must be in separate files for security. -->
+        <script src='jquery-1.9.1.min.js'></script>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <!-- div: content -->
+        <div class="content">
+            <!-- div: content header -->
+            <div class="content-header">
+                
+            </div>
+        </div>
+        <form id="test">
+            <input type="button" id="b1" value="PULL">
+            <input type="button" id="b2" value="PUSH">
+        </form>
+        <span id="result"></span>
+    </body>
 </html>

@@ -1,15 +1,20 @@
 {
-  "manifest_version": 2,
-
-  "name": "降价小助手",
-  "description": "为您在线购物时提供实时的降价提醒及通知",
-  "version": "1.0.1",
-
-  "permissions": [
-    "http://dev.xpttk.com/"
-  ],
-  "browser_action": {
-    "default_icon": "extension-bar-logo.jpg",
-    "default_popup": "popup.html"
-  }
+    "manifest_version": 2,
+            
+    "name": "降价小助手",
+    "description": "为您在线购物时提供实时的降价提醒及通知",
+    "version": "1.0.1",
+    
+    "permissions": [
+        "http://dev.xpttk.com/"
+    ],
+        
+    "browser_action": {
+        "default_icon": {
+            "19": "images/extension-logo-19.png",
+            "38": "images/extension-logo-38.png"
+        },
+        "default_title": "降价小助手",
+        "default_popup": "popup.html"
+    }
 }
