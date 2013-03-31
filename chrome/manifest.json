@@ -1,14 +1,11 @@
 {
     "manifest_version": 2,
-            
     "name": "降价小助手",
     "description": "为您在线购物时提供实时的降价提醒及通知",
     "version": "1.0.1",
+    "permissions": [ "cookies", "tabs", "http://dev.xpttk.com" ],
     
-    "permissions": [
-        "http://dev.xpttk.com/"
-    ],
-        
+    "options_page": "options.html",
     "browser_action": {
         "default_icon": {
             "19": "images/extension-logo-19.png",
