@@ -11,15 +11,25 @@
         </style>
     </head>
     <body>
-        <div class="content">
-            <h3>账号设置</h3>
+        <div class="settings">
+            <div class="account">
+                <div class="notLoggedIn">
+                    <h3>账号设置</h3>
+                    <a href="http://dev.xpttk.com/login_qq.php" target="_blank"><img src="images/qq_login_logo_medium.png" title="点击进入QQ授权页面" alt="点击进入QQ授权页面"></a>
+                    <a href="http://dev.xpttk.com/login_weibo.php" target="_blank"><img src="images/weibo_login_logo_medium.png" title="点击新浪微博进入授权页面" alt="点击进入新浪微博授权页面"></a>
+                </div>
+                
+                <div class="loggedIn">
+                    <img class="userImage" src="">
+                    <span class="userName"></span>
+                </div>
+            </div>
             
-            <a href="http://dev.xpttk.com/login_qq.php" target="_blank"><img src="images/qq_login_logo_medium.png" title="点击进入QQ授权页面" alt="点击进入QQ授权页面"></a>
-            <a href="http://dev.xpttk.com/login_weibo.php" target="_blank"><img src="images/weibo_login_logo_medium.png" title="点击新浪微博进入授权页面" alt="点击进入新浪微博授权页面"></a>
-            
-            <h3>提醒设置</h3>
-            <input type="radio" name="reminderOptions" value="digit" checked>数字提醒
-            <input type="radio" name="reminderOptions" value="popup">弹窗提醒 
+            <div class="options">
+                <h3>提醒设置</h3>
+                <input type="radio" name="reminder" value="digit" checked>数字提醒
+                <input type="radio" name="reminder" value="popup">弹窗提醒 
+            </div>
         </div>
 
         <script src='jquery-1.9.1.min.js'></script>
